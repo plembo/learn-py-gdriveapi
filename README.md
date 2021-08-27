@@ -37,11 +37,15 @@ _Test Users_. Add your account as a test user.
 
 ### Credentials
 
-_Applicatiom type_. Desktop app.
+_Application type_. Desktop app.
 
 _Name_. Whatever sounds good to you.
 
 After generating the credentials, click on the download icon all the way to the right and save as "credentials.json" in the project folder on your computer. This file should be kept secret from the world, so if your files are being tracked by git be sure to add "credentials.json" and "token.json" (the latter will be created by the script and will contain a copy of these credentials) to the .gitignore file for the project.
+
+### OAuth consent screen: Test or Production
+
+Unless you're going to put your code into... _production_, you can leave its Publishing status on "Test". External apps that are published need to be reviewed and approved by Google.
 
 ### Additional Resources
 
