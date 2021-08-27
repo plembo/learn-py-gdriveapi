@@ -146,4 +146,5 @@ static
 .project
 .vscode
 .vscode/
-
+credentials.json
+token.json
