@@ -28,8 +28,8 @@ _App Domain_. Leave blank unless you are using a Google Workspace account.
 _Developer Contact Information_. Provide your e-mail.
 
 _Scopes_. Add the following scopes:
-    * Google Drive API /auth/drive.metadata.readonly
-    * Google Drive API /auth/drive
+* Google Drive API /auth/drive.metadata.readonly
+* Google Drive API /auth/drive
 
 _Test Users_. Add your account as a test user.
 
