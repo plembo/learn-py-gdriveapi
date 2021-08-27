@@ -45,7 +45,7 @@ After generating the credentials, click on the download icon all the way to the 
 
 ### OAuth consent screen: Test or Production?
 
-Unless you're going to put your code into... _production_, you can leave its Publishing status on "Test". External apps that are published need to be reviewed and approved by Google.
+Unless you're going to put your code into... _production_, you can leave its Publishing status at "Test". External apps that are published need to be reviewed and approved by Google.
 
 ### Additional Resources
 
