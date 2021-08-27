@@ -6,7 +6,8 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 
 # If modifying these scopes, delete the file token.json.
-SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly']
+SCOPES = [
+    'https://www.googleapis.com/auth/drive.metadata.readonly']
 
 def main():
     """Shows basic usage of the Drive v3 API.
