@@ -45,6 +45,14 @@ After generating the credentials, click on the download icon all the way to the 
 
 Unless you're going to put your code into... _production_, you can leave its Publishing status at "Test". External apps that are published need to be reviewed and approved by Google.
 
+### Python 3 modules required
+
+```
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+```
+
 ### Additional Resources
 
 In his tutorial on the Google Drive API, Jonathan Meier configures for a personal Google account. Jonathan Meier. "How to Query Google Drive API in Python". _YouTube_, 13 June 2020, https://youtu.be/10ANOSssdCw. I have also included his script here (renamed to "listfiles.py") because it demonstrates an alternative pattern for structuring the code. In his 11 minute video, which I highly recommend, Jonathan does a terrific job of explaining the how this all works.
