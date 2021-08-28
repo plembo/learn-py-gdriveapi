@@ -1,4 +1,4 @@
-# Google Drive API v3: Python Quickstart
+# Learn Google Drive API for Python
 Material taken from Quickstart for the Google Drive API v3:
 
 "Google Drive for Developers v3: Python Quickstart". _Google Developers_, https://developers.google.com/drive/api/v3/quickstart/python, retrieved 27 August 2021.
