@@ -21,7 +21,7 @@ Original contents licensed by Google under a Creative Commons Attribution
 
 _User Type_. If using a personal Google account rather than a Google Workspace (GSuite) account, the app must be configured as External. The Google Developer tutorial assumes that you are using a Google Workspace account, and so proceeds to configure for an Internal app.
 
-_App Information_. Provide the name of the app and your e-mail for "User support email".
+_App Information_. Provide the name of the app and your e-mail for "User support email". At one time, you could avoid Google verification by omitting a logo, but the sensitive scopes enabled below will make verification necessary in any event.
 
 _App Domain_. Leave blank unless you are using a Google Workspace account.
 
@@ -30,6 +30,8 @@ _Developer Contact Information_. Provide your e-mail.
 _Scopes_. Add the following scopes:
 * Google Drive API /auth/drive.metadata.readonly
 * Google Drive API /auth/drive
+
+Both the above scopes are categorized by Google as "sensitive", requiring verification of your app if you choose to publish.
 
 _Test Users_. Add your account as a test user.
 
@@ -43,7 +45,7 @@ After generating the credentials, click on the download icon all the way to the 
 
 ### OAuth consent screen: Test or Production?
 
-Unless you're going to put your code into... _production_, you can leave its Publishing status at "Test". External apps that are published need to be reviewed and approved by Google.
+Unless you're going to put your code into... _production_, you can leave its Publishing status at "Test". External apps that are published with scopes classified as sensitive muse be verified by Google.
 
 ### Python 3 modules required
 
