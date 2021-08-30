@@ -39,7 +39,7 @@ def get_gdrive_service():
 
 def upload_files():
     """
-    Creates a folder and upload a file to it
+    Creates a folder and uploads a file to it
     """
     # authenticate account
     service = get_gdrive_service()
