@@ -78,7 +78,7 @@ def get_size_format(b, factor=1024, suffix="B"):
 
 def main():
     # filter to file name
-    filename = 'opendj'
+    filename = 'bbc.zip'
     # authenticate Google Drive API
     service = get_gdrive_service()
     # search for files that has type of text/plain
