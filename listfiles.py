@@ -15,6 +15,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/drive"
 ]
 
+
 def get_credentials_as_dict(credentials) -> dict:
     credentials_as_dict = {
         "token": credentials.token,
@@ -55,17 +56,18 @@ def get_credentials() -> Credentials:
         with open(token_filename, "r") as f:
             credentials_as_dict = json.load(f)
             creds = credentials_from_dict(credentials_as_dict)
-    
+
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(
+                "credentials.json", SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for next run
         with open(token_filename, "w") as f:
             f.write(creds.to_json())
-    
+
     return creds
 
 
