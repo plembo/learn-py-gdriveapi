@@ -78,11 +78,11 @@ def get_size_format(b, factor=1024, suffix="B"):
 
 def main():
     # filter to text files
-    filetype = "text/plain"
+    # filetype = "text/plain"
     # authenticate Google Drive API
     service = get_gdrive_service()
     # search for files that has type of text/plain
-    search_result = search(service, query=f"mimeType='{filetype}'")
+    search_result = search(service, query=f"name contains 'opendj'")
     # convert to table to print well
     table = tabulate(search_result, headers=["ID", "Name", "Type", "Size"])
     print(table)
