@@ -9,6 +9,7 @@ from google.oauth2.credentials import Credentials
 SCOPES = [
     'https://www.googleapis.com/auth/drive.metadata.readonly']
 
+
 def main():
     """Shows basic usage of the Drive v3 API.
     Prints the names and ids of the first 10 files the user has access to.
@@ -45,6 +46,6 @@ def main():
         for item in items:
             print(u'{0} ({1})'.format(item['name'], item['id']))
 
+
 if __name__ == '__main__':
     main()
-
