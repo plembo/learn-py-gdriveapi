@@ -148,3 +148,4 @@ static
 .vscode/
 credentials.json
 token.json
+token.pickle
