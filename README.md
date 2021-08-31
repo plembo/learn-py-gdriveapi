@@ -59,6 +59,6 @@ google-auth-oauthlib
 
 In his tutorial on the Google Drive API, Jonathan Meier configures for a personal Google account. Jonathan Meier. "How to Query Google Drive API in Python". _YouTube_, 13 June 2020, https://youtu.be/10ANOSssdCw. I have also included his script here (renamed to "listfiles.py") because it demonstrates an alternative pattern for structuring the code. In his 11 minute video, which I highly recommend, Jonathan does a terrific job of explaining the how this all works.
 
-Some more examples, wuth code reflected in listgdrive.py, etc., can be found here:
+Some more examples, with code reflected in list_gdrive.py, etc., can be found here:
 
 Abdou Rockikz. "How to Use Google Drive API in Python". _PythonCode_, https://www.thepythoncode.com/article/using-google-drive--api-in-python, Retrieved 30 August 2021.
